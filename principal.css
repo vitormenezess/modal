@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'MuseoModerno', cursive;
+    
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #1a1a1a;
+
+}
+header{
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    background-color: #101010;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 3px 10px #000;
+    flex-wrap: wrap;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #ccc;
+    transition: 200ms;
+    margin: 5px;
+}
+.logo:hover{
+    border-radius: 50%;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.menu li a{
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+    display: block;
+    padding: 8px;
+    transition: 500ms;
+}
+.menu li a:hover{
+    background-color: #ccc;
+    color: white;
+    display: block;
+    border-radius: 5px;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container div{
+    flex: 1 1 350px;
+    margin: 10px;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+.retrato{
+    max-width: 300px;
+    max-height: 700px;
+}
